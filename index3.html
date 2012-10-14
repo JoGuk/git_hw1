@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="ko"> 
+
+<head>
+	<meta charset="utf-8"/>
+	<title>index3</title>
+	<link href = "stylesheet/main.css" rel = "stylesheet" type = "text/css">
+</head>
+
+<body>	
+	<div id = "wrap">
+		<div id = "top">
+				<a href = "">로그인</a><br/>
+				<a href = "">회원가입</a>
+		</div>
+		<div id = "header">
+			<div id = "header_left" >
+				<img src = "./images/Logo.jpg" width = "150" height = "100" alt = "">
+			</div>
+			<div id = "header_top">
+					<p style = "color:black">
+					<span style = "font-size:30pt">
+					<b>국의 홈페이지</b>
+					</span>
+					</p>
+			</div>	
+		</div>
+		<div id = "navbar">
+			<ul>
+				<li><a href = "navi.html" class = "selected">Home</a></li>
+				<li><a href = "index2.html">프로필</a></li>
+				<li><a href = "index3.html">설문조사</a></li>
+			</ul>
+		</div>
+		<div id = "content">
+			<div id = "main_content" >
+				<div class ="section" id = "table">
+				<br/>
+					<form action = "#" method = "post">
+					<table border ="1">	
+					<caption><span style = "font-size:22pt"> 조국에 대해 얼마나 아는가 </span></caption>
+					
+					<thead>
+						<tr>
+						<th>질문</th>
+						<th>선택</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+						<td> 조국이 희망하는 입대시기는?</td>
+						<td> 
+							<input type ="radio" name = "army" value = "12"/>올해 12월
+							<input type ="radio" name = "army" value = "1"/>내년 1월
+							<input type ="radio" name = "army" value = "2"/>내년 2월
+							<input type ="radio" name = "army" value = "No"/>안간다
+						</td>
+						</tr>
+
+						<tr>
+						<td> 조국이 좋아하는 운동은?</td>
+						<td>  
+							<input type = "checkbox" name = "hobby" value = "soccer"/>축구
+							<input type = "checkbox" name = "hobby" value = "basketball"/>농구
+							<input type = "checkbox" name = "hobby" value = "ribbon"/>리본체조
+							<input type = "checkbox" name = "hobby" value = "bobsleigh"/>봅슬레이
+						</td>
+						</tr>
+
+						<tr>
+						<td> 조국이 태어난 곳? </td>
+						<td> 	
+							<select name = "hometown">
+								<option value = "seoul">서울</option>
+								<option value = "seoul">인천</option>
+								<option value = "seoul">안산</option>
+								<option value = "seoul">수원</option>
+								<option value = "seoul">강원도 태백</option>
+							</select>
+						</td>	
+						</tr>
+						
+						<tr>
+						<td> 조국에게 하고 싶은 말 </td>	
+						<td> <textarea cols ="38" rows = "5" name = "intro"> </textarea> </td>
+						<!--<td><input type="text"></td>-->
+						</tr>
+						
+						<tr> 
+							<td colspan = "2"> 
+							<input type = "checkbox" name = "believe"> 성실하게 답변하였습니다.
+							</td>
+						</tr>
+					</tbody>
+					</table>	
+
+					<input type ="submit" value = "제출">
+					</form>
+					<br/>
+				</div>
+			</div>
+		</div>
+		<div id = "footer">
+			<p>사이트 소개 | 이용약관 | 문의하기 | 유해 게시물 신고 | 도움말 </p>
+			<p>
+				Copyright © Gukhome. All rights reserved.
+			</p>
+		</div>
+	</div>
+						
+</body>
+</html>
